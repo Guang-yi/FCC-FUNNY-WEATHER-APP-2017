@@ -1,0 +1,26 @@
+body {
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    
+}
+
+.main {
+  position: absolute;
+  padding-top: 20px;
+  top: 30%;
+  left: 50%;
+  width: 700px;
+  height: 175px;
+  margin-top: 0px;
+  margin-left: -350px;
+  z-index: 20;
+  background-color: rgba(10, 10, 10, 0.6);
+  text-align:center;
+  border-radius: 3px;
+  box-shadow: 4px 4px 10px #333;
+}
